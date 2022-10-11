@@ -4,16 +4,16 @@ import { PERMISSIONS, entryPointUriPath } from './src/constants';
  * @type {import('@commercetools-frontend/application-config').ConfigOptions}
  */
 const config = {
-  name: 'Training',
+  name: 'BundleOrg',
   entryPointUriPath,
   cloudIdentifier: 'gcp-eu',
   env: {
     development: {
-      initialProjectKey: 'training',
+      initialProjectKey: 'bundleorg',
     },
     production: {
-      applicationId: 'TODO',
-      url: 'https://your_app_hostname.com',
+      applicationId: 'cl94ehw3c87924101wddglntb3c',
+      url: 'https://BundleOrg.vercel.app',
     },
   },
   oAuthScopes: {
